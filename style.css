@@ -1,7 +1,47 @@
-.div {
+* {
+    margin: 0;
+    padding: 5px;
+}
+
+.cabecalho {
     background: #cecece;
+
 }
 
 .form {
     background: #cecece;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    
+}
+
+h1 {
+    background: rgb(218, 122, 12);
+    color: white;
+}
+
+p {
+    color: purple;
+    font-size: 25px;
+}
+
+.img {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    font-weight: bold;
+}  
+
+span {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.botao {
+    background: rgb(218, 122, 12);
+    color: white;
+    border-radius: 12px;
+    text-decoration: none;
 }
